@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export BUN_INSTALL=\"$HOME/.bun\")",
+      "Bash(export PATH=\"$BUN_INSTALL/bin:$PATH\")",
+      "Read(//Users/kevin.williams/.claude/skills/gstack/**)",
+      "Bash(./setup)",
+      "Bash(export PATH=\"$HOME/.bun/bin:$PATH\")",
+      "Bash(./setup --team)",
+      "Bash(~/.claude/skills/gstack/bin/gstack-team-init required *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
